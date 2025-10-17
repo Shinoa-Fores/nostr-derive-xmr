@@ -1,5 +1,7 @@
 # nostr-derive-xmr
 
+`nostr-derive-xmr` is a small utility to derive a Monero (XMR) address from a hex encoded nostr key. It is lightweight and uses `pycryptodome` for cryptograhy primitives instead of rusted bloat crypto packages.
+
 If you use <a href="https://github.com/wujifoo/nostr-bip-85-prototype/tree/main">bip-85</a> and derive keys from these you can have infinite wallets all derived from you master key.
 
 Install dependencies:
